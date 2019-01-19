@@ -1,0 +1,6 @@
+framework module HYPodTestOneDemo {
+  umbrella header "HYPodTestOneDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

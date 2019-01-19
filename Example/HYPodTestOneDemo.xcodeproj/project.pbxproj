@@ -61,11 +61,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0D8F7D1299C192312FFA316 /* Pods_HYPodTestOneDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYPodTestOneDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A62B0B109A6D4B1BB9061FEC /* HYPodTestOneDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYPodTestOneDemo.podspec; path = ../HYPodTestOneDemo.podspec; sourceTree = "<group>"; };
+		A62B0B109A6D4B1BB9061FEC /* HYPodTestOneDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYPodTestOneDemo.podspec; path = ../HYPodTestOneDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A97D9F166915C1C104F6EF92 /* Pods-HYPodTestOneDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPodTestOneDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPodTestOneDemo_Example/Pods-HYPodTestOneDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD99A6A6F2F2CAAFC45F90FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DD99A6A6F2F2CAAFC45F90FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E80C94829D7CDF30C038A21F /* Pods-HYPodTestOneDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPodTestOneDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYPodTestOneDemo_Tests/Pods-HYPodTestOneDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F1F1C5CEED0BD59D6EB7C16B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F1F1C5CEED0BD59D6EB7C16B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FC9F239E5D79A5915F973066 /* Pods-HYPodTestOneDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPodTestOneDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPodTestOneDemo_Tests/Pods-HYPodTestOneDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HYPodTestOneDemo_Example/Pods-HYPodTestOneDemo_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HYPodTestOneDemo/HYPodTestOneDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPodTestOneDemo.framework",
 			);
@@ -321,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HYPodTestOneDemo_Example-checkManifestLockResult.txt",
 			);
@@ -343,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HYPodTestOneDemo_Tests-checkManifestLockResult.txt",
 			);

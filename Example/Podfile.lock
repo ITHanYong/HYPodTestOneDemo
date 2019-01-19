@@ -1,0 +1,16 @@
+PODS:
+  - HYPodTestOneDemo (0.1.0)
+
+DEPENDENCIES:
+  - HYPodTestOneDemo (from `../`)
+
+EXTERNAL SOURCES:
+  HYPodTestOneDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYPodTestOneDemo: ec5bbe6296aab6c0cafff2c7c2f23f7b21239a96
+
+PODFILE CHECKSUM: 24665ccce1bc6b0b2a1f3474376f9449d3292c20
+
+COCOAPODS: 1.5.3

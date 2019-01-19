@@ -1,0 +1,22 @@
+{
+  "name": "HYPodTestOneDemo",
+  "version": "0.1.0",
+  "summary": "A short description of HYPodTestOneDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ITHanYong/HYPodTestOneDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ITHanYong": "1152829171@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ITHanYong/HYPodTestOneDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HYPodTestOneDemo/Classes/**/*"
+}
