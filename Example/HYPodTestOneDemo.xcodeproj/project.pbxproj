@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ITHanYong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G82574ATF5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = A97D9F166915C1C104F6EF92 /* Pods-HYPodTestOneDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G82574ATF5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYPodTestOneDemo/HYPodTestOneDemo-Prefix.pch";
 				INFOPLIST_FILE = "HYPodTestOneDemo/HYPodTestOneDemo-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 3953B644C10E3AAAA122F924 /* Pods-HYPodTestOneDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G82574ATF5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYPodTestOneDemo/HYPodTestOneDemo-Prefix.pch";
 				INFOPLIST_FILE = "HYPodTestOneDemo/HYPodTestOneDemo-Info.plist";

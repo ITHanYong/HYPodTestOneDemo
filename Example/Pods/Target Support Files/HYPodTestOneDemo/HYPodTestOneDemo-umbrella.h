@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AirBubbleView.h"
 
 FOUNDATION_EXPORT double HYPodTestOneDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char HYPodTestOneDemoVersionString[];
